@@ -6,14 +6,14 @@ import tornado.httpserver
 import tornado.ioloop
 import tornado.web
 import tornado.wsgi
-import tracing.config
+# import tracing.config
 from gevent.wsgi import WSGIServer
 
 from {{cookiecutter.pkg_name}}.urls import handlers
 
 
 def get_tornado_application():
-    tracing.config.initialize()
+    # tracing.config.initialize()
     settings = dict(
         version='3.0.35',
         gzip=True,

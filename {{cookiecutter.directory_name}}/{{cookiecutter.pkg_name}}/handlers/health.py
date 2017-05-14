@@ -20,7 +20,7 @@
 """ Demo Handler Module
 """
 
-from kmb.handlers import BaseHandler
+from {{cookiecutter.pkg_name}}.handlers import BaseHandler
 
 
 class HealthCheckHandler(BaseHandler):
