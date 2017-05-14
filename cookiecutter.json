@@ -1,4 +1,4 @@
 {
-    'directory_name': 'web',
-    'pkg_name': 'backend'
+    "directory_name": "web",
+    "pkg_name": "backend"
 }
