@@ -4,10 +4,10 @@
 
 from setuptools import find_packages, setup
 
-from lived import __version__
+from {{cookiecutter.pkg_name}} import __version__
 
 setup(
-    name={{cookiecutter.pkg_name}},
+    name='{{cookiecutter.pkg_name}}',
     version=__version__,
     license='PRIVATE',
     author='',
@@ -18,6 +18,7 @@ setup(
     install_requires=[
         'tornado',
         'gevent',
+        'tracing.config'
     ],
     entry_points={
         'console_scripts': [
