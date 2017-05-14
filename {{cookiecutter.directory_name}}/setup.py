@@ -18,7 +18,6 @@ setup(
     install_requires=[
         'tornado',
         'gevent',
-        'tracing.config'
     ],
     entry_points={
         'console_scripts': [
