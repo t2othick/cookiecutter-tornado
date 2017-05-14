@@ -1,2 +1,4 @@
 {
+    'directory_name': 'web',
+    'pkg_name': 'backend'
 }
